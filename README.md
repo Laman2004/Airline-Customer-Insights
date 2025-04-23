@@ -1,44 +1,54 @@
-# ✈️ Airline Customer Insights Dashboard
+# ✈️ Airline Loyalty & Customer Insights Dashboards
+
+This repository contains two interactive Power BI dashboards that visualize airline customer data to uncover insights into customer loyalty, CLV (Customer Lifetime Value), education level, and geographic behavior. These dashboards are built to help analysts and business decision-makers identify trends, segment customers, and enhance loyalty programs.
+
+---
+
+## 📊 Dashboards Overview
+
+### 1️⃣ **Customer Insights Overview Dashboard**
 
 ![customer insight](https://github.com/user-attachments/assets/634ade0f-9b72-45aa-93a8-56461ee91655)
 
 
-## Overview
+**Key Features:**
+- CLV by gender
+- Average salary comparison
+- Total and average distances traveled
+- Points accumulation vs. redemption by month
+- Distance and CLV trends by month and education
+- Year and month filter slicers
 
-The **Airline Customer Insights Dashboard** is an interactive analytics tool built using Power BI that enables stakeholders in the airline industry to explore and monitor key customer-related performance metrics. The dashboard provides a detailed breakdown of customer lifetime value (CLV), flight distances, salary insights, and reward points accumulation and redemption trends.
-
----
-
-## 🎯 Purpose
-
-The goal of this dashboard is to offer data-driven insights that support decision-making in customer relationship management, loyalty program optimization, and marketing segmentation.
-
----
-
-## 📊 Key Features & Metrics
-
-- **Average Salary by Gender:** Comparison of average earnings between male and female customers.
-- **Customer Lifetime Value (CLV) by Gender:** Visual distribution of CLV across genders.
-- **Distance by Education Level:** Total flight distances based on customers’ education background.
-- **Monthly Distance Trends:** Seasonality and trends in customer travel behavior.
-- **Points Accumulated vs. Redeemed:** Monthly tracking of loyalty points.
-- **Total and Average Flight Distance:** Summarized flight performance data.
+**Use Case:**  
+Ideal for understanding customer trends and monthly KPIs at a high level across the airline’s loyalty program.
 
 ---
 
-## 🔎 Filters & Slicers
+### 2️⃣ **Loyalty & Education Deep Dive Dashboard**
 
-- **Year Selection (2017, 2018)**
-- **Month Range Slider (1–12)**
+![Loyalty](https://github.com/user-attachments/assets/b26305d3-edeb-4c7c-a22d-883afe7db1bf)
 
-These filters allow users to explore the data by time period for deeper insight.
+
+
+**Key Features:**
+- Median, Min, and Max CLV by education
+- Redeemed rate tracking
+- Top loyalty members by distance, salary, and CLV
+- CLV vs Salary scatter by education level
+- Points accumulated by province
+- Filters by gender, province, enrollment type, and education
+
+**Use Case:**  
+Perfect for detailed segmentation of loyalty program participants based on educational background and provincial patterns.
 
 ---
 
-## 🧰 Tools & Technologies Used
+## 🧰 Tools Used
 
-- **Power BI** for data visualization and dashboard development
-- **Excel / CSV** for data source (optional: SQL backend can also be noted if used)
-- **DAX** for calculated metrics and measures
+- **Power BI** (dashboard development)
+- **Microsoft Excel / CSV** (data source)
+- **DAX** (data modeling and measures)
+
+
 
 
